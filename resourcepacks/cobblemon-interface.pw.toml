@@ -1,6 +1,6 @@
 name = "Cobblemon Interface"
 filename = "Cobblemon Interface v1.4.1.zip"
-side = "client"
+side = "both"
 
 [download]
 hash-format = "sha1"

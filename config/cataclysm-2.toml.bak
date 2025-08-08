@@ -7,6 +7,8 @@
 	shadersCompat = false
 	#ScreenShake(on/off)
 	"ScreenShake(on/off)" = true
+
+["bosses Common settings"]
 	#custombossbar(on/off)
 	"custombossbar(on/off)" = true
 	#BossMusic(on/off)
@@ -15,6 +17,10 @@
 	# Default: 1
 	# Range: 1 ~ 1000000
 	BossMusicVolume = 1
+	#If the boss leaves the summoned location and there is no target, it returns to the summoned location. When set to 0, it does not return
+	# Default: 20
+	# Range: 0 ~ 200
+	ReturnHome = 20
 
 [Weapon]
 	#Armor Infinity Durability(on/off)
@@ -190,9 +196,9 @@
 	# Range: 0 ~ 100
 	EnderGuardianDamageTime = 30
 	#EnderGuardian's Healing with out target
-	# Default: 10.0
+	# Default: 20.0
 	# Range: 0.0 ~ 1000000.0
-	EnderGuardianNatureHealing = 10.0
+	EnderGuardianNatureHealing = 20.0
 	#Ender guardian's block breaking ignore the MobGriefing
 	EnderguardianBlockBreaking = true
 	#Guardian's Immune to Long distance attack range.
@@ -245,6 +251,14 @@
 	# Default: 3
 	# Range: 1 ~ 1000000
 	Lavabombamount = 3
+	#Lava Bomb of Monstrosity's Duration
+	# Default: 350
+	# Range: 1 ~ 10000
+	LavaBombDuration = 350
+	#Lava Bomb of Monstrosity's additional random duration size
+	# Default: 150
+	# Range: 1 ~ 10000
+	LavaBombRandomDuration = 150
 	#Monstrosity's Health Multiplier
 	# Default: 1.0
 	# Range: 0.0 ~ 1000000.0
@@ -258,9 +272,9 @@
 	# Range: 0.0 ~ 1000000.0
 	MonstrosityHealingMultiplier = 1.0
 	# Monstrosity's Healing with out target
-	# Default: 10.0
+	# Default: 20.0
 	# Range: 0.0 ~ 1000000.0
-	MonstrosityNatureHealing = 10.0
+	MonstrosityNatureHealing = 20.0
 	#Monstrosity's DamageCap
 	# Default: 22.0
 	# Range: 0.0 ~ 1000000.0
@@ -308,9 +322,9 @@
 	# Range: 0.0 ~ 1000000.0
 	IgnisDamageMultiplier = 1.0
 	#Ignis's Healing with out target
-	# Default: 10.0
+	# Default: 20.0
 	# Range: 0.0 ~ 1000000.0
-	IgnisNatureHealing = 10.0
+	IgnisNatureHealing = 20.0
 	#Ignis's Healing Multiplier
 	# Default: 1.0
 	# Range: 0.0 ~ 1000000.0
@@ -404,9 +418,9 @@
 	# Range: 0.0 ~ 1000000.0
 	LeviathanDamageMultiplier = 1.0
 	#Leviathan's Healing with out target
-	# Default: 10.0
+	# Default: 20.0
 	# Range: 0.0 ~ 1000000.0
-	LeviathanNatureHealing = 10.0
+	LeviathanNatureHealing = 20.0
 	#Leviathan's Immune to Long distance attack range.
 	# Default: 38.0
 	# Range: 1.0 ~ 1000000.0
@@ -490,9 +504,9 @@
 	# Range: 0.0 ~ 1000000.0
 	AncientRemnantDamageMultiplier = 1.0
 	#AncientRemnant's Healing with out target
-	# Default: 10.0
+	# Default: 20.0
 	# Range: 0.0 ~ 1000000.0
-	AncientRemnantNatureHealing = 10.0
+	AncientRemnantNatureHealing = 20.0
 	#Ancient Remnant's Immune to Long distance attack range.
 	# Default: 14.0
 	# Range: 1.0 ~ 1000000.0
@@ -580,13 +594,13 @@
 	# Range: 1.0 ~ 1000000.0
 	"Maledictus's prevent attacks from far away Range" = 12.0
 	#Maledictus's Healing with out target
+	# Default: 20.0
+	# Range: 0.0 ~ 1000000.0
+	MaledictusNatureHealing = 20.0
+	#Maledictus's Phantom Halberd Damage
 	# Default: 10.0
 	# Range: 0.0 ~ 1000000.0
-	MaledictusNatureHealing = 10.0
-	#Maledictus's Phantom Halberd Damage
-	# Default: 13.0
-	# Range: 0.0 ~ 1000000.0
-	"Maledictus' Phantom Halberd Damage'" = 13.0
+	"Maledictus' Phantom Halberd Damage'" = 10.0
 	#Maledictus's DamageCap
 	# Default: 20.0
 	# Range: 0.0 ~ 1000000.0

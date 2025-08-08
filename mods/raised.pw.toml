@@ -1,13 +1,13 @@
 name = "Raised"
-filename = "raised-neoforge-1.21.1-4.0.1.jar"
-side = "client"
+filename = "raised-neoforge-1.21.1-5.0.0.jar"
+side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "b867bb4b8e1d116ca40e1ed3ecafc764370bb903"
+hash = "37c3f4f66cb44c0b22dab78d8d5cb79807ad71d9"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5849516
+file-id = 6700633
 project-id = 570368

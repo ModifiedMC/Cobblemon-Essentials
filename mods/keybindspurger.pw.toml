@@ -1,6 +1,6 @@
 name = "KeybindsPurger"
 filename = "keybindspurger-1.21.x-neoforge-1.3.3.jar"
-side = "client"
+side = "both"
 
 [download]
 hash-format = "sha1"

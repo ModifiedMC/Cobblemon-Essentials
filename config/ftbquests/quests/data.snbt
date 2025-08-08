@@ -1,15 +1,16 @@
 {
 	default_autoclaim_rewards: "disabled"
-	default_consume_items: true
+	default_consume_items: false
 	default_quest_disable_jei: false
 	default_quest_shape: "rsquare"
 	default_reward_team: false
-	detection_delay: 20
+	detection_delay: 60
 	disable_gui: false
 	drop_book_on_death: true
 	drop_loot_crates: false
 	emergency_items_cooldown: 300
 	grid_scale: 0.5d
+	hide_excluded_quests: false
 	icon: {
 		components: {
 			"ftbquests:icon": "modified:textures/ftbquests/logos/modified_mew_static.png"

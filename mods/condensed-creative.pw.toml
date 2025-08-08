@@ -1,6 +1,6 @@
 name = "Condensed Creative"
 filename = "condensed_creative-3.4.1+1.21-neoforge.jar"
-side = "client"
+side = "both"
 
 [download]
 hash-format = "sha1"

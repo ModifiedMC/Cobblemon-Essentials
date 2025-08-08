@@ -1,0 +1,13 @@
+name = "Cobblemon Johto - Pokemon's Johto & Kanto recreated"
+filename = "Cobblemon Johto V1.2.1 - Jond.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d93dbecb88cd409af1885dc96430b09e3d0d80f8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6550827
+project-id = 1098970
