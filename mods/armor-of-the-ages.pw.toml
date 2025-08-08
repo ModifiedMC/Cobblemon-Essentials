@@ -1,13 +1,13 @@
 name = "Armor of the Ages"
-filename = "armoroftheages-neoforge-1.21.1-1.5.3.jar"
+filename = "armoroftheages-neoforge-1.21.1-1.5.4.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "0c355e95b53681f15d2d02a2399225b6794cf7f4"
+hash = "c7a9692546e3c3edaf3a5561973bb86133e42cd4"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6313563
+file-id = 6842203
 project-id = 975288

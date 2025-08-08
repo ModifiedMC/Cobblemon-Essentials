@@ -404,11 +404,6 @@
     "modId": "configuration",
     "version": "3.1.1"
   },
-  "connectivity-1.21.1-7.1.jar": {
-    "jarName": "connectivity-1.21.1-7.1.jar",
-    "modId": "connectivity",
-    "version": "7.1"
-  },
   "Controlling-neoforge-1.21.1-19.0.5.jar": {
     "jarName": "Controlling-neoforge-1.21.1-19.0.5.jar",
     "modId": "controlling",
@@ -1469,11 +1464,6 @@
     "jarName": "structureessentials-1.21.1-4.8.jar",
     "modId": "structureessentials",
     "version": "4.8"
-  },
-  "structurify-neoforge-1.0.20+mc1.21.1.jar": {
-    "jarName": "structurify-neoforge-1.0.20+mc1.21.1.jar",
-    "modId": "structurify",
-    "version": "1.0.20"
   },
   "supplementaries-1.21-3.3.5-neoforge.jar": {
     "jarName": "supplementaries-1.21-3.3.5-neoforge.jar",
