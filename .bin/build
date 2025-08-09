@@ -114,7 +114,14 @@ echo -e "=====\n\n"
 if [[ "$TYPE" == "both" ]] || [[ "$TYPE" == "client" ]]; then
     # main CF client export
     echo "Exporting CurseForge pack..."
-    "$BASE_DIR/.bin/packwiz-wrapper"  --cache $BASE_DIR/download/packwiz cf export --side client >/dev/null 2>&1
+    "$BASE_DIR/.bin/packwiz-wrapper"  --cache $BASE_DIR/download/packwiz cf export --side client
+
+    # check if export was successful
+    zip_count=$(ls *.zip 2>/dev/null | wc -l)
+    if [[ "$zip_count" -eq 0 ]]; then
+        echo "ERROR: CurseForge export failed - no zip file created"
+        exit 1
+    fi
 
     # make working directory structure
     mkdir -p "$BASE_DIR/build/client"
@@ -123,6 +130,15 @@ if [[ "$TYPE" == "both" ]] || [[ "$TYPE" == "client" ]]; then
     # workaround for packwiz bug: https://github.com/packwiz/packwiz/issues/295
     echo "Patching CurseForge pack..."
     cd "$BASE_DIR/build"
+    
+    # verify the zip file exists before trying to unzip
+    if [[ ! -f "$zip_file" ]]; then
+        echo "ERROR: Expected zip file '$zip_file' not found in build directory"
+        echo "Available files:"
+        ls -la
+        exit 1
+    fi
+    
     unzip "$zip_file" -d "$BASE_DIR/build/client" 2>/dev/null 1>&2
     rm "$zip_file"
 
