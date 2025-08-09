@@ -4610,6 +4610,11 @@ hash = "03ee8c9d3b608d3174c5b697fd61e43a8d31702002390b93339a67c13d924eb3"
 metafile = true
 
 [[files]]
+file = "mods/copycats.pw.toml"
+hash = "e8562dd1a88ce84401100e45dbe9edcb8a04b67922718832acb1d1cc6e759b65"
+metafile = true
+
+[[files]]
 file = "mods/corgilib.pw.toml"
 hash = "fbdd2d7171e9100806bd5db5f10240e7609550efeba69796e8765fbefaeed1fd"
 metafile = true
@@ -5567,6 +5572,11 @@ metafile = true
 [[files]]
 file = "mods/skin-layers-3d.pw.toml"
 hash = "1d6aa035a961b9bf1a89d89ca7f8bbc668565ec495899a15119b94f4ae554f8e"
+metafile = true
+
+[[files]]
+file = "mods/slice-and-dice.pw.toml"
+hash = "0218c576d635d5d514f96f981f627932e752de48ef794e6817da1872e92eead0"
 metafile = true
 
 [[files]]
