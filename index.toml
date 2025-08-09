@@ -757,7 +757,7 @@ hash = "7f84b4d37e39956dd57ed232b08453ea3c2c4578bdf1430d42b4e77a15024b75"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "53aa46670fc18b1ab7d17bd7a0bf4cd852f129b43b54403dbfc49634022c7aa0"
+hash = "af19d6d26d8ee9e30ae46660dc70f34e8210ecd12a86a0d861994f8b0643d745"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
@@ -1205,7 +1205,7 @@ hash = "4a39b911d270d487870fcc0dc68ee83796ed83d1c16115f1cfcd084279407789"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/seasonal_field_research.snbt"
-hash = "fb2087a523d8692f4c2e71e93d987866ff0a229b9b5257786d8401eaa70ec5cc"
+hash = "303087a2a32fbd77e4cc2620ff17201a96c98e2ed4507c84ed48055cf1ae4d02"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/simply_swords.snbt"
@@ -1237,7 +1237,7 @@ hash = "2437f1e8bf7aa5628491864d5d5a4e2b39e8cbaee6d16938d500293543bf6c75"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_overworld.snbt"
-hash = "ceb47f67a21575babc56e9a22ad123f8a94d42320daac5a6cf1412dee25e4155"
+hash = "535ab774a1be32c0672b24598a6379fe55385b16b296f0b494471e82efeb1d18"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/toms_simple_storage.snbt"
@@ -2385,7 +2385,7 @@ hash = "74c75a6b7253f410e69e4ce777273f0e042cc0ac42149c796ec79e50bf68c2e7"
 
 [[files]]
 file = "defaultconfigs/ftbranks/ranks.snbt"
-hash = "35abeb8a3726af276bea683031ae2a46e843ed8a7826b8d181d7c3990a006b4f"
+hash = "8d0253e70e208f474f38071bd30dc052b70417fce8b16f91c1f4ab108dc8cd02"
 
 [[files]]
 file = "defaultconfigs/ftbultimine/ftbultimine-client.snbt"
