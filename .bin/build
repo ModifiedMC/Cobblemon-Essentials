@@ -185,6 +185,12 @@ if [[ "$TYPE" == "both" ]] || [[ "$TYPE" == "server" ]]; then
         old_filename="$filename"
     done <<< "$(java -jar $BASE_DIR/download/packwiz-installer-bootstrap.jar -g -s server $BASE_DIR/pack.toml 2>&1)" || true
 
+    # Copy any manual resource packs that are needed
+    if [[ -d "$BASE_DIR/download" ]]; then
+        mkdir -p "$BASE_DIR/build/server/resourcepacks"
+        find "$BASE_DIR/download" -name "*.zip" -exec cp {} "$BASE_DIR/build/server/resourcepacks/" \;
+    fi
+
     if [[ "$can_continue" == "false" ]]; then
         exit 1
     fi
