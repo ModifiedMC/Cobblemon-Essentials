@@ -334,7 +334,7 @@
 		{
 			icon: {
 				components: {
-					"ftbquests:icon": "structurify:textures/gui/config/images/biomes/beach.png"
+					"ftbquests:icon": "handcrafted:painting/beach_sunrise_mid"
 				}
 				id: "ftbquests:custom_icon"
 			}

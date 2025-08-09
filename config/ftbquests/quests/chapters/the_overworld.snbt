@@ -191,7 +191,7 @@
 		}
 		{
 			height: 1.0d
-			image: "structurify:textures/gui/config/images/biomes/bamboo_jungle.png"
+			image: "minecraft:textures/map/decorations/jungle_temple.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: 17.5d
@@ -199,7 +199,7 @@
 		}
 		{
 			height: 1.0d
-			image: "structurify:textures/gui/config/images/biomes/desert.png"
+			image: "minecraft:textures/map/decorations/desert_village.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: 17.5d
@@ -255,7 +255,7 @@
 		}
 		{
 			height: 2.0d
-			image: "structurify:textures/gui/config/images/biomes/dripstone_caves.png"
+			image: "regions_unexplored:item/deepslate_prismoss_side"
 			rotation: 0.0d
 			width: 2.0d
 			x: -4.0d
