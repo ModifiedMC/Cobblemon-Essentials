@@ -1,25 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "[MODIFIED] Cobblemon Essentials-v1.2.7.zip:Zone.Identifier"
-hash = "33724ce212020aa7bf3d436456beb1a4a47661d42484fc15f01efedc6e75c9cd"
-
-[[files]]
-file = "cobblemon-additions.pw.toml"
-hash = "f4c7fa8950264610895799db4106c6b17a8044ecab12d9a517b6eb0682dd4326"
-metafile = true
-
-[[files]]
-file = "complementary-reimagined.pw.toml"
-hash = "77648e26296071f790bea303b2b2c171b64681385e5b3bacada7d9f75dd54297"
-metafile = true
-
-[[files]]
-file = "complementary-unbound.pw.toml"
-hash = "0ecc8df3b8cc35aaae4ea7757417a8050e99657e683e7b7e05410aeedfc28d0b"
-metafile = true
-
-[[files]]
 file = "config/#STOP_MOD_REPOSTS.txt"
 hash = "d1f27b3ef6095e32e8563e179209de86acca3049fa6431b1ae15bd6f05e5832d"
 
@@ -1828,6 +1809,10 @@ file = "config/paxi/datapacks/AllTheMons x Mega Showdown [v2.8.1].zip"
 hash = "7e7c7918bf1379944b6f661b423980b6e53fd99ac270f05f451607419985b9cd"
 
 [[files]]
+file = "config/paxi/datapacks/BCA-Datapack-3.8.1_general_M1.21.1_C1.6.1.zip"
+hash = "3c8cb7c1d23add80ec53d3f8a8f3879643dad006e7db4aed7837572524247623"
+
+[[files]]
 file = "config/paxi/datapacks/BCA-PokeDollars.zip"
 hash = "3bfe5cdf14e3363f941175bfae74ef7574e664e408061bcf767b8bfa3d15bfdc"
 
@@ -1842,6 +1827,10 @@ hash = "72f737502574509e5b516cef6d5e398b3205ac73829ad6dbd35c88b3421988be"
 [[files]]
 file = "config/paxi/datapacks/PartingTweaks_2.0.zip"
 hash = "5bef72dfba87f0077cbb9c97b2c00325187c1ad24eb08eab9f6cdb4048ce9b7c"
+
+[[files]]
+file = "config/paxi/datapacks/RCT-Badges-PKGBadges-0.15+1.1.2.zip"
+hash = "511054d897e6acfe50ad109b2a6335af9b5a5c05ffe96bbbcd07772465174078"
 
 [[files]]
 file = "config/paxi/datapacks/ctovcobblemon-v1.0.1.zip"
@@ -4172,16 +4161,6 @@ file = "kubejs/startup_scripts/moon.js"
 hash = "f79e5ebafb49df971452a61c2313d5dfdf0359832facef03283da529e702c292"
 
 [[files]]
-file = "mellow.pw.toml"
-hash = "b0ff9dbb6f69bd597eb8e221be6deeff83cd05137453ebb06935b2059b3724b5"
-metafile = true
-
-[[files]]
-file = "miniature-shader.pw.toml"
-hash = "e957333e587ee401ffebdbf73be265be9a185a62ccd30d8dda7bcb22f6572701"
-metafile = true
-
-[[files]]
 file = "mods/CobblemonExtras-neoforge-1.4.2.jar"
 hash = "a0b7e1531fa6c19783532333f26131f790c972adbf9ef39c2a7c0e359a7b8d3f"
 
@@ -5789,11 +5768,6 @@ hash = "400918237e259461717e6d85ad9e648054e901b372e1cfc180622e276f3df8c7"
 metafile = true
 
 [[files]]
-file = "rct-badges-pkgbadges.pw.toml"
-hash = "2a4285264a0793784e5b14e727b04d431e57ecf4ee5355775d8ce023945d8c4f"
-metafile = true
-
-[[files]]
 file = "resourcepacks/cobblemon-classic-grass-pack.pw.toml"
 hash = "aaa1d10baed5dbeef2ec9203c37c08e0359337913c5d8cdf2b7b5a096f02a14d"
 metafile = true
@@ -5850,10 +5824,5 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/solas-shader.pw.toml"
-hash = "7b6564ffa9ddc510af5479b593a1db26851e8d331229ea6a59f50f777c24b08b"
-metafile = true
-
-[[files]]
-file = "solas-shader.pw.toml"
 hash = "7b6564ffa9ddc510af5479b593a1db26851e8d331229ea6a59f50f777c24b08b"
 metafile = true
