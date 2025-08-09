@@ -1,7 +1,7 @@
 hash-format = "sha256"
 
 [[files]]
-file = "[MODIFIED] Cobblemon Essentials-v1.2.7.zipZone.Identifier"
+file = "[MODIFIED] Cobblemon Essentials-v1.2.7.zip:Zone.Identifier"
 hash = "33724ce212020aa7bf3d436456beb1a4a47661d42484fc15f01efedc6e75c9cd"
 
 [[files]]
@@ -277,7 +277,7 @@ hash = "c51ed7f0af9528cffc79b6bf65e50dbf3dd49b21b1ec3ee7815b17c90f2d5638"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "30c59728d0d377dd0cf638d890705f7bd74f7c2327c40755234da49187aaaa93"
+hash = "bc5aa93f6ba00bf9bea0a51faacf8265f308292910db3733cb9efa702248267c"
 
 [[files]]
 file = "config/berry_good-common.toml"
@@ -568,6 +568,10 @@ file = "config/configuration-options.json"
 hash = "0b68a3b324f4a172d577a10446593b8f64f38e37199c928b0fc5aee152baee00"
 
 [[files]]
+file = "config/connectivity.json"
+hash = "15de6d09567ab4c8194a1b0b344343ac0e5c9d9e4a72592696dafd0ff6b64587"
+
+[[files]]
 file = "config/crash_assistant/config.toml"
 hash = "f873e9dfbe06565cb0964a085ccf3e7971413433d3ebc8a1a0ab94700cbe121b"
 
@@ -593,7 +597,7 @@ hash = "59da1a25472485880a33644782ff04db3481fbfbb2ef1504df27fe2c5aef251c"
 
 [[files]]
 file = "config/crash_assistant/modlist.json"
-hash = "9105d17a0a57ecfb3d41712045de43fdbc6654c1b2f1321c802840833dc2b64c"
+hash = "ac4bdab117f32b0b7059531d9693f1e271b1e88fda4c18ec40532f7d825b1575"
 
 [[files]]
 file = "config/crash_assistant/problematic_mods_config.json"
@@ -850,6 +854,10 @@ hash = "0554c0e7816266477c65c18d2ada9fdddf1c6750787efd329056223ca4a073b2"
 [[files]]
 file = "config/etf_warnings.json"
 hash = "a5ba22e63061c1fb67f0f895f17681351eaeccc225faef966c29ee630593275e"
+
+[[files]]
+file = "config/euphoria_patcher.properties"
+hash = "0838e6cddcbe1cc36e183eaedfe6c4926408dc666930ca997690c935b0cbc6b9"
 
 [[files]]
 file = "config/experienceobelisk-common.toml"
@@ -1241,7 +1249,7 @@ hash = "367b45d46394d6324e455f71e00e4538646575bb460a0acbbe734c213c0734a6"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "807af1de5ff098ed84e855fe27cbc14b95a92457bc6d49c3efeb2db0d8a8cd73"
+hash = "8a8ccc68dec04904c41d3292bbbd8463b7741ff332188ddb7678cb54de4d2db7"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/018B7DD83BAE2B01.snbt"
@@ -1880,6 +1888,10 @@ file = "config/paxi/resourcepacks/FreshAnimations_v1.9.2.zip"
 hash = "7ecee4567bd999ce6d45897b0b196a9342ff325f550031a15fffaaf81342dc1b"
 
 [[files]]
+file = "config/paxi/resourcepacks/Maxi's-JM+CM_Pixel-U7.zip"
+hash = "d3d38b076dceb98dfae5943ff9fa6d9409c9d36281952f283a16324b908fa62f"
+
+[[files]]
 file = "config/paxi/resourcepacks/RCT Trainers+ [1.6] v2.0.zip"
 hash = "8d628bbc31e9d644c49d8bce09e135d053f4e7b4eb1b470998a4e547d81c163f"
 
@@ -2190,6 +2202,10 @@ hash = "6d7783df7500e57242be9961eed0d393a9d1ee338f724c817cdffbf6a7e09ea3"
 [[files]]
 file = "config/structureessentials.json"
 hash = "54826c1ce55156e6a3d19a22949d733668806c7ed4a77218cc1d26bb6c5fa7bd"
+
+[[files]]
+file = "config/structurify.json"
+hash = "fdf7dac82995b970453ff509c7312b555d7b6edc8bdace62756fca6e356817ad"
 
 [[files]]
 file = "config/supplementaries-client-1.toml.bak"
@@ -5806,11 +5822,6 @@ metafile = true
 [[files]]
 file = "resourcepacks/fresh-animations.pw.toml"
 hash = "a837a6ef76177cd45f425ed3a72fef3454c761fda77507d8f1943ddabf54e8df"
-metafile = true
-
-[[files]]
-file = "resourcepacks/journeymap-cobblemon-icons.pw.toml"
-hash = "1d26d1a3ffab59dd676d7825c518f1d702d9946ef156c80c721595f01cd1489d"
 metafile = true
 
 [[files]]
