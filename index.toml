@@ -1888,16 +1888,16 @@ file = "config/paxi/resourcepacks/FreshAnimations_v1.9.2.zip"
 hash = "7ecee4567bd999ce6d45897b0b196a9342ff325f550031a15fffaaf81342dc1b"
 
 [[files]]
-file = "config/paxi/resourcepacks/Maxi's-JM+CM_Pixel-U7.zip"
-hash = "d3d38b076dceb98dfae5943ff9fa6d9409c9d36281952f283a16324b908fa62f"
-
-[[files]]
 file = "config/paxi/resourcepacks/RCT Trainers+ [1.6] v2.0.zip"
 hash = "8d628bbc31e9d644c49d8bce09e135d053f4e7b4eb1b470998a4e547d81c163f"
 
 [[files]]
 file = "config/paxi/resourcepacks/Tom's Cobblemoned.zip"
 hash = "d48d983efe9efea2ec42f79eb2097370e809e4acb72d782492959ba285d06a6a"
+
+[[files]]
+file = "config/paxi/resourcepacks/dCIM1.0.3.zip"
+hash = "243d3f7e914f852c8b2044d024dfbd17386be54389801c22206e8b5ce1cb1031"
 
 [[files]]
 file = "config/paxi/resourcepacks/emissive-cobblemon-ores.zip"
@@ -4156,14 +4156,6 @@ file = "kubejs/startup_scripts/coins.js"
 hash = "e2b641c18f98ee96d9e4bc179d09b1bc1f1af00c63ee7c53d4243cc9d6972a92"
 
 [[files]]
-file = "kubejs/startup_scripts/dungeon_blocks.js"
-hash = "4538dee6dd4fde3d1eb793d45c9fe0fa765cf10a980c19cd4150ebedb540c5b1"
-
-[[files]]
-file = "kubejs/startup_scripts/dungeon_keys.js"
-hash = "176c4d99ce823bb789729651f031dc3ea021187b21181467a6dc5ce7dd2f5d06"
-
-[[files]]
 file = "kubejs/startup_scripts/dungeons.js"
 hash = "6ac7b9fd1502060c9c8d139112cffdccaa4465d4b8ed386e02e078cc8ea66891"
 
@@ -4178,14 +4170,6 @@ hash = "6e9d76a27bf5e161249ae66713cf51a40e344445a87bb8b9911c6a85995c8f89"
 [[files]]
 file = "kubejs/startup_scripts/moon.js"
 hash = "f79e5ebafb49df971452a61c2313d5dfdf0359832facef03283da529e702c292"
-
-[[files]]
-file = "kubejs/startup_scripts/mtoken.js"
-hash = "e94afaa6158912dfa6ffab1a1acbd8f0fef37ae166ba60019badc5e88316a1d7"
-
-[[files]]
-file = "kubejs/startup_scripts/pokedollar.js"
-hash = "b9958b584c16817dcac9ef0ee101eef024d90627350960080fecc5ce85a18c69"
 
 [[files]]
 file = "mellow.pw.toml"
