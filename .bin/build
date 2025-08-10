@@ -102,24 +102,6 @@ echo -e "=====\n\n"
 rm -rf "$BASE_DIR/build/*.zip" "$BASE_DIR/build/client" "$BASE_DIR/build/server" "$BASE_DIR/build/work" "$BASE_DIR/*.zip"
 mkdir -p "$BASE_DIR/download/packwiz"
 
-# verifiy Complementary + Euphoria shaders
-shaderpack_count="$(find shaderpacks -iname "Complementary*EuphoriaPatches*.zip" | wc -l)"
-if [[ "$shaderpack_count" != 2 ]] && [[ ! -z "${SHADER_UNBOUND_URL+x}" ]] && [[ ! -z "${SHADER_REIMAGINED_URL+x}" ]]; then
-    echo "Complementary + Euphoria shaders missing, downloading from provided URLs"
-
-    filename="$(urldecode "$(basename "$SHADER_UNBOUND_URL")")"
-    curl -sL "$SHADER_UNBOUND_URL" -o "$BASE_DIR/shaderpacks/$filename"
-
-    filename="$(urldecode "$(basename "$SHADER_REIMAGINED_URL")")"
-    curl -sL "$SHADER_REIMAGINED_URL" -o "$BASE_DIR/shaderpacks/$filename"
-fi
-
-shaderpack_count="$(find shaderpacks -iname "Complementary*EuphoriaPatches*.zip" | wc -l)"
-if [[ "$shaderpack_count" != 2 ]]; then
-    echo "Complementary + Euphoria shaders missing, cannot build client"
-    exit 1
-fi
-
 zip_file="$NAME-$VERSION.zip"
 server_zip_file="$NAME-$VERSION-server.zip"
 # refresh packwiz
@@ -132,6 +114,13 @@ if [[ "$TYPE" == "both" ]] || [[ "$TYPE" == "client" ]]; then
     echo "Exporting CurseForge pack..."
     "$BASE_DIR/.bin/packwiz-wrapper"  --cache $BASE_DIR/download/packwiz cf export --side client
 
+    # check if export was successful
+    zip_count=$(ls *.zip 2>/dev/null | wc -l)
+    if [[ "$zip_count" -eq 0 ]]; then
+        echo "ERROR: CurseForge export failed - no zip file created"
+        exit 1
+    fi
+
     # make working directory structure
     mkdir -p "$BASE_DIR/build/client"
     mv *.zip "$BASE_DIR/build/"
@@ -139,6 +128,15 @@ if [[ "$TYPE" == "both" ]] || [[ "$TYPE" == "client" ]]; then
     # workaround for packwiz bug: https://github.com/packwiz/packwiz/issues/295
     echo "Patching CurseForge pack..."
     cd "$BASE_DIR/build"
+    
+    # verify the zip file exists before trying to unzip
+    if [[ ! -f "$zip_file" ]]; then
+        echo "ERROR: Expected zip file '$zip_file' not found in build directory"
+        echo "Available files:"
+        ls -la
+        exit 1
+    fi
+    
     unzip "$zip_file" -d "$BASE_DIR/build/client" 2>/dev/null 1>&2
     rm "$zip_file"
 
@@ -148,6 +146,7 @@ if [[ "$TYPE" == "both" ]] || [[ "$TYPE" == "client" ]]; then
     mv "$BASE_DIR/build/client/manifest.tmp.json" "$BASE_DIR/build/client/manifest.json"
 
     # re-zip client pack
+    echo "Packaging client files..."
     zip -r "$zip_file" * 2>/dev/null 1>&2
     cd "$BASE_DIR/build"
     mv "$BASE_DIR/build/client/$zip_file" $BASE_DIR/build/
@@ -199,6 +198,12 @@ if [[ "$TYPE" == "both" ]] || [[ "$TYPE" == "server" ]]; then
         fi
         old_filename="$filename"
     done <<< "$(java -jar $BASE_DIR/download/packwiz-installer-bootstrap.jar -g -s server $BASE_DIR/pack.toml 2>&1)" || true
+
+    # Copy any manual resource packs that are needed
+    if [[ -d "$BASE_DIR/download" ]]; then
+        mkdir -p "$BASE_DIR/build/server/resourcepacks"
+        find "$BASE_DIR/download" -name "*.zip" -exec cp {} "$BASE_DIR/build/server/resourcepacks/" \;
+    fi
 
     if [[ "$can_continue" == "false" ]]; then
         exit 1
