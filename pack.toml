@@ -13,7 +13,7 @@ neoforge = "21.1.199"
 
 [export]
 [export.curseforge]
-project-id = 867058
+project-id = 963083
 
 [options]
 acceptable-game-versions = ["1.21.1"]

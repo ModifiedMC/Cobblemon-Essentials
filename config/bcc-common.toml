@@ -3,7 +3,7 @@
 #modpackProjectID is now deprecated and will be removed soon
 # Default: 0
 # Range: > 0
-modpackProjectID = 1206395
+modpackProjectID = 963083
 #The name of the modpack
 modpackName = "Modified_Cobblemon_Essentials"
 #The version of the modpack

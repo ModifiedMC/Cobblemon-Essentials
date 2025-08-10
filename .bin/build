@@ -5,7 +5,6 @@ set -o pipefail
 set -o nounset
 
 BASE_DIR=$( realpath $( dirname "${BASH_SOURCE[0]}" )/../ )
-CI="${CI:-false}"
 TYPE="${1:-both}"
 NAME="$(cat pack.toml | grep "name = " | sed -e 's/name = "\(.*\)"/\1/')"
 VERSION="$(cat pack.toml | grep "version = " | sed -e 's/version = "\(.*\)"/\1/')"
@@ -28,7 +27,7 @@ function download-file() {
     local file=$1
 
     if [[ ! -f "$BASE_DIR/download/$file" ]] && [[ ! -z "${MOD_BASE_URL+x}" ]]; then
-        url="$MOD_BASE_URL/${file/ /%20}"
+        url="$MOD_BASE_URL/$file"
         status="$(curl -o /dev/null --silent --head --write-out '%{http_code}\n' "$url")"
         if [[ "$status" == "200" ]]; then
             curl -sL "$MOD_BASE_URL/$file" -o "$BASE_DIR/download/$file" 2>/dev/null 1>&2 || true
@@ -40,10 +39,9 @@ function check-upload() {
     local file=$1
 
     if [[ ! -z "${MOD_BASE_URL+x}" ]]; then
-        url="$MOD_BASE_URL/$(echo "$file" | sed "s/ /%20/g")"
+        url="$MOD_BASE_URL/$file"
         status="$(curl -o /dev/null --silent --head --write-out '%{http_code}\n' "$url")"
         if [[ "$status" != "200" ]]; then
-            echo "$url"
             upload-file "$file"
         fi
     fi
@@ -107,8 +105,7 @@ zip_file="$NAME-$VERSION.zip"
 server_zip_file="$NAME-$VERSION-server.zip"
 # refresh packwiz
 echo "Refreshing hashes..."
-"$BASE_DIR/.bin/packwiz-wrapper" --cache $BASE_DIR/download/packwiz refresh >/dev/null 2>&1
-echo "Hashes refreshed!"
+"$BASE_DIR/.bin/packwiz-wrapper" --cache $BASE_DIR/download/packwiz refresh
 echo -e "=====\n\n"
 
 if [[ "$TYPE" == "both" ]] || [[ "$TYPE" == "client" ]]; then
@@ -149,7 +146,7 @@ if [[ "$TYPE" == "both" ]] || [[ "$TYPE" == "client" ]]; then
 
     # re-zip client pack
     echo "Packaging client files..."
-    zip -r "$zip_file" * >/dev/null 2>&1
+    zip -r "$zip_file" * 2>/dev/null 1>&2
     cd "$BASE_DIR/build"
     mv "$BASE_DIR/build/client/$zip_file" $BASE_DIR/build/
     rm -rf "$BASE_DIR/build/client"
@@ -191,7 +188,7 @@ if [[ "$TYPE" == "both" ]] || [[ "$TYPE" == "server" ]]; then
         download-file "$filename"
         if [[ -f "$BASE_DIR/download/$filename" ]]; then
             cp "$BASE_DIR/download/$filename" "mods/$filename"
-            check-upload "$filename"
+            check-upload $filename
         fi
 
         if [[ ! -f "mods/$filename" ]]; then
@@ -210,7 +207,6 @@ if [[ "$TYPE" == "both" ]] || [[ "$TYPE" == "server" ]]; then
     if [[ "$can_continue" == "false" ]]; then
         exit 1
     fi
-    
     # re-run installer with manually downloaded mods
     if [[ ! -f "packwiz.json" ]]; then
         echo "Building server (pass 2/2)..."
@@ -221,7 +217,6 @@ if [[ "$TYPE" == "both" ]] || [[ "$TYPE" == "server" ]]; then
     sed -i -e "s/MODLOADER_VERSION=.*/MODLOADER_VERSION=$NEOFORGE_VERSION/" "$BASE_DIR/server/variables.txt"
     cp "$BASE_DIR/server/"* "$BASE_DIR/build/server"
 
-    echo "Packaging server files..."
     zip -r "$server_zip_file" * 2>/dev/null 1>&2
     mv "$server_zip_file" "$BASE_DIR/build/"
     rm -rf "$BASE_DIR/build/server"
