@@ -258,7 +258,7 @@ hash = "c51ed7f0af9528cffc79b6bf65e50dbf3dd49b21b1ec3ee7815b17c90f2d5638"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "bc5aa93f6ba00bf9bea0a51faacf8265f308292910db3733cb9efa702248267c"
+hash = "5eda33ebe45619f71005abf5d5ef71de33e4dfdfada81dae4b6dc6fd7c05a0c4"
 
 [[files]]
 file = "config/berry_good-common.toml"
@@ -1231,6 +1231,10 @@ hash = "367b45d46394d6324e455f71e00e4538646575bb460a0acbbe734c213c0734a6"
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
 hash = "8a8ccc68dec04904c41d3292bbbd8463b7741ff332188ddb7678cb54de4d2db7"
+
+[[files]]
+file = "config/ftbquests/quests/lang/es_es.snbt"
+hash = "51c59ba9776704b86c3292874a6d2522da04ee9f1e4818b32b5556649f919ba7"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/018B7DD83BAE2B01.snbt"
@@ -4824,6 +4828,11 @@ hash = "bb3972a97a3915f202ce571fc7b943b2055119a0d70404424505e4dbc811958c"
 metafile = true
 
 [[files]]
+file = "mods/euphoria-patches.pw.toml"
+hash = "322e5753ed863f07771df3f7ab5b145766cf374609556fa4d9d0fc26037ec2d1"
+metafile = true
+
+[[files]]
 file = "mods/explorers-compass.pw.toml"
 hash = "35bad9f01671b5b4284ad547dab6635b2a029980c88d82007690e9232a5cb420"
 metafile = true
@@ -5806,6 +5815,14 @@ metafile = true
 file = "saves/cobblemon-johto.pw.toml"
 hash = "a07313e8db3e9c4e1dbc0ebbe1ec348c234f574de1d10e933f6452ed82f0daa1"
 metafile = true
+
+[[files]]
+file = "shaderpacks/ComplementaryReimagined_r5.5.1 + EuphoriaPatches_1.6.5.zip"
+hash = "4434feaa2deb48c2cd3f75229ae2276b4c4d4af445d66259bdeb67e796bea12c"
+
+[[files]]
+file = "shaderpacks/ComplementaryUnbound_r5.5.1 + EuphoriaPatches_1.6.5.zip"
+hash = "8cc87c486a108ffee2797b4cd22eab765b3ccb1f77f4830e7c149e10e308aa36"
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
