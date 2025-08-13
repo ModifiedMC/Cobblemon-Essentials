@@ -5048,6 +5048,11 @@ hash = "692cfbdf8d99f846abd5e2083fcbaa3e0fd8af6e26138cb2d4952456709f00c5"
 metafile = true
 
 [[files]]
+file = "mods/immersive-paintings.pw.toml"
+hash = "f396d2451d69bd7ccc614896063ae9fec63f42f916486c571c6fc00f6383c673"
+metafile = true
+
+[[files]]
 file = "mods/in-control.pw.toml"
 hash = "c961d173988906e7569c79ccadef7867964e091b7cd3c6af3ae0a66c0d1f1752"
 metafile = true
