@@ -258,7 +258,7 @@ hash = "c51ed7f0af9528cffc79b6bf65e50dbf3dd49b21b1ec3ee7815b17c90f2d5638"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "5eda33ebe45619f71005abf5d5ef71de33e4dfdfada81dae4b6dc6fd7c05a0c4"
+hash = "0c866788a9c38bc393bdaddd41170c0b5e180fd4cdd9ec0a32a7350946d0f109"
 
 [[files]]
 file = "config/berry_good-common.toml"
@@ -1906,7 +1906,7 @@ hash = "55affffe67e84dfe11e590769e235aee999b77f9484a3adf7ee8247a9f3d35ba"
 
 [[files]]
 file = "config/raised.json"
-hash = "0275d16d3b29b02bd0d8351d08fb27b91e051ba83bdf404be1473fc2195ad582"
+hash = "3303b2edc4ba9ff50ce005e38e2259850495568761932da60ec88d144e1911ee"
 
 [[files]]
 file = "config/rctmod-client.toml"
@@ -5324,7 +5324,7 @@ metafile = true
 
 [[files]]
 file = "mods/morecobblemontweaks.pw.toml"
-hash = "a1e79a8bbeffd8ebfa8e37e16ddd3810329a379a68cdc67f965c218cb3cff4b1"
+hash = "ce9bd7d1f2b3907e93660cc5c96b8330e824ae1c9d526ef2805a67e7aaa8c5d9"
 metafile = true
 
 [[files]]
@@ -5574,7 +5574,7 @@ metafile = true
 
 [[files]]
 file = "mods/smithing-template-viewer.pw.toml"
-hash = "d57e8161eb21eaa4a1d3deac98926afda0f4d01cf891deee934868d1cac5dd74"
+hash = "0d5a805b094f0bf0936c7de227621dd8571a09c24659fb19dd1f4806a909a47b"
 metafile = true
 
 [[files]]
