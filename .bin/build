@@ -181,7 +181,12 @@ if [[ "$TYPE" == "both" ]] || [[ "$TYPE" == "client" ]]; then
         exit 1
     fi
     
-    unzip "$zip_file" -d "$BASE_DIR/build/client" 2>/dev/null 1>&2
+    echo "Extracting client pack (this may take a moment)..."
+    timeout 120 unzip -o -q "$zip_file" -d "$BASE_DIR/build/client" || {
+        echo "ERROR: Unzip failed or timed out after 2 minutes"
+        exit 1
+    }
+    echo "✓ Extraction completed"
     rm "$zip_file"
 
     # patch manifest to add neoforge version
