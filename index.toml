@@ -5748,10 +5748,6 @@ hash = "d2ca05aeb2fe818ea038eb8af4de15fba6ef277766742d7cf4480901bf10f2d5"
 metafile = true
 
 [[files]]
-file = "mods/world-host-0.5.2+1.21.1-neoforge.jar"
-hash = "1e7b57741712f80561b40fe93a99c11564147d4ed093cada0d37eb884b32b98a"
-
-[[files]]
 file = "mods/world-host.pw.toml"
 hash = "b844c10676b5911a4d2af32710d21fa22eafafcb6e1e3505fb8651b643cd99f7"
 metafile = true
