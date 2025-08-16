@@ -1905,6 +1905,10 @@ file = "config/ponder-client.toml"
 hash = "55affffe67e84dfe11e590769e235aee999b77f9484a3adf7ee8247a9f3d35ba"
 
 [[files]]
+file = "config/raised.json"
+hash = "3303b2edc4ba9ff50ce005e38e2259850495568761932da60ec88d144e1911ee"
+
+[[files]]
 file = "config/rctmod-client.toml"
 hash = "fea22def4a675a7bda428aeced4e5724aa4080fec6b01f2432afa4d18fbb13a2"
 
