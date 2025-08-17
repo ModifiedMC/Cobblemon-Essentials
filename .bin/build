@@ -326,9 +326,34 @@ if [[ "$TYPE" == "both" ]] || [[ "$TYPE" == "server" ]]; then
     cp "$BASE_DIR/server/"* "$BASE_DIR/build/server" 2>/dev/null || true
     echo "✓ Server configuration files copied"
 
-    final_mod_count=$(find "$BASE_DIR/build/server/mods/" -name "*.jar" | wc -l)
+       final_mod_count=$(find "$BASE_DIR/build/server/mods/" -name "*.jar" | wc -l)
     echo "📊 Final mod count: $final_mod_count"
     
+    echo ""
+    # Remove client-side mods from server build
+    echo "Removing client-side mods from server..."
+    client_mods=(
+        "*distraction_free_recipes*"
+        "*morecobblemontweaks*" 
+        "*euphoria-patches*"
+        "*smithing-template-viewer*"
+        "*world-host*"
+        "*packwiz-installer-bootstrap*"
+    )
+    
+    removed_total=0
+    for pattern in "${client_mods[@]}"; do
+        found=$(find "$BASE_DIR/build/server/mods" -name "$pattern" 2>/dev/null | wc -l)
+        if [[ "$found" -gt 0 ]]; then
+            echo "  Removing $found client-only mod(s) matching: $pattern"
+            find "$BASE_DIR/build/server/mods" -name "$pattern" -delete 2>/dev/null || true
+            removed_total=$((removed_total + found))
+        fi
+    done
+    
+    echo "✓ Removed $removed_total client-side mod(s)"
+    
+    echo "Creating server ZIP package..."
     echo ""
     echo "Creating server ZIP package..."
     zip -r "$server_zip_file" * 2>/dev/null 1>&2

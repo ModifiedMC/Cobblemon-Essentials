@@ -4308,6 +4308,11 @@ hash = "21782cf50547212bf6fca41564043a520971c80277ded0f20c94acbdc2ff86ba"
 metafile = true
 
 [[files]]
+file = "mods/baguettelib.pw.toml"
+hash = "caf8d9539dfbe24903e1b71f1fb82a37810575b7db57e113a7351dd8d40b60b8"
+metafile = true
+
+[[files]]
 file = "mods/balm.pw.toml"
 hash = "d9d36014e5764d21bbf65ca24c3182f8bf4ed781d7e08232c5cbcaa25197c5bb"
 metafile = true
@@ -4708,6 +4713,11 @@ hash = "92d8711662b4e3fd42a57254571aca9f0b33a10bb7492a8fba59b22e78f688e6"
 metafile = true
 
 [[files]]
+file = "mods/curios.pw.toml"
+hash = "f92e7a06645e41ea1934dc420eb2772edb1708c0d71cb427baef8cf753acb934"
+metafile = true
+
+[[files]]
 file = "mods/dark-mode-everywhere.pw.toml"
 hash = "d49b12a00673ee8de5b5df8ec5956bf81da551eff4d2a38b230a089b765f2c42"
 metafile = true
@@ -5020,6 +5030,16 @@ metafile = true
 [[files]]
 file = "mods/goblin-traders.pw.toml"
 hash = "29abe36be13fe414e13125140f1c4fe373f7daf79a11ba511e0f77a47ea7f946"
+metafile = true
+
+[[files]]
+file = "mods/gravestone-mod.pw.toml"
+hash = "f6fe00aafaa353a72b0fed76650c57132b506aacb7d90bbeedf874909df7cdf5"
+metafile = true
+
+[[files]]
+file = "mods/gravestone-x-curios-api-compat.pw.toml"
+hash = "bac64d66334b78287575f7717aeb542bf4871c0fda866e9a9df4c080f7fdfed7"
 metafile = true
 
 [[files]]
@@ -5757,10 +5777,6 @@ file = "mods/yacl.pw.toml"
 hash = "5aaab5c3140ac335cf0345f9f280fc5774a2834faecc290272b3d24b8a97274a"
 metafile = true
 
-[[files]]
-file = "mods/youre-in-grave-danger.pw.toml"
-hash = "6b548f0402651a554b18cb6560bf85744d0827dfd001bb66232904e7962258e1"
-metafile = true
 
 [[files]]
 file = "mods/yung-structures-addon-for-loot-integrations.pw.toml"
