@@ -258,7 +258,7 @@ hash = "c51ed7f0af9528cffc79b6bf65e50dbf3dd49b21b1ec3ee7815b17c90f2d5638"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "448173de2ee82b58ce69189c61a3ce080f75b47920a644e0e5a7cb6dbbb08bc5"
+hash = "1313d09d2bed3334885881c4d5d4562af988b6aba3bb509f2e4b5a41add004a5"
 
 [[files]]
 file = "config/berry_good-common.toml"
@@ -1074,7 +1074,7 @@ hash = "2373ee61948e714f1678ec13deee77553513726fcf8fe1f548d7b02fc97e679a"
 
 [[files]]
 file = "config/ftbpmapi-client.toml"
-hash = "c5e009563c0ded86deff8d41aed7146384e5ffe168e23d644f922a9ef5d6e2a2"
+hash = "0fdd070cbe90169dd13d13e4bf954aca00cc23ead6144b704807d0831f3bc14f"
 
 [[files]]
 file = "config/ftbquests-client.snbt"
@@ -1674,7 +1674,7 @@ hash = "2a2ee19297afe3fc512f5cbe639349847f3e7a74616f282d24a179a17f4559ed"
 
 [[files]]
 file = "config/logbegone.json"
-hash = "4e73cc30162191ffcaae1de4d30f5ba1ffc9d15744fcc7e4fcd5f9b3449135a5"
+hash = "824454e90f1eed3ec7c2cb98637114f4302ced392120eba6e2ce68aeecc5b1f7"
 
 [[files]]
 file = "config/logprot.json"
@@ -2347,10 +2347,6 @@ hash = "da1c5624e49170467645060e595530ca920a12b3581c846678911db9e6857204"
 [[files]]
 file = "config/yacl.json5"
 hash = "121b93764159be6fb7dab523b29a844e2bb78400ce8c48f52135a097e9b0006e"
-
-[[files]]
-file = "config/yigd.json"
-hash = "01d786aee2f7eca99d6b043a1bd1dc06aae50b8b96f003310fcee8213e668228"
 
 [[files]]
 file = "defaultconfigs/ftbchunks/client-config.snbt"
@@ -4129,10 +4125,6 @@ file = "kubejs/server_scripts/login_kit.js"
 hash = "1665543d1bea956080b5186ea1595c1e1951c934be15a4d0d709011cdd6d01ec"
 
 [[files]]
-file = "kubejs/server_scripts/main.js"
-hash = "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f"
-
-[[files]]
 file = "kubejs/server_scripts/modified_recipes.js"
 hash = "6c62093d09e3fd3e27dc8385b64a411287727e6219d9fb10242123ba415b8769"
 
@@ -4155,10 +4147,6 @@ hash = "6ac7b9fd1502060c9c8d139112cffdccaa4465d4b8ed386e02e078cc8ea66891"
 [[files]]
 file = "kubejs/startup_scripts/jsconfig.json"
 hash = "19c11c4004d8686b4b26e35026a5f8dd2bcb1f9164b2827d31625e2b02585aa7"
-
-[[files]]
-file = "kubejs/startup_scripts/main.js"
-hash = "6e9d76a27bf5e161249ae66713cf51a40e344445a87bb8b9911c6a85995c8f89"
 
 [[files]]
 file = "kubejs/startup_scripts/moon.js"
@@ -4713,11 +4701,6 @@ hash = "92d8711662b4e3fd42a57254571aca9f0b33a10bb7492a8fba59b22e78f688e6"
 metafile = true
 
 [[files]]
-file = "mods/curios.pw.toml"
-hash = "f92e7a06645e41ea1934dc420eb2772edb1708c0d71cb427baef8cf753acb934"
-metafile = true
-
-[[files]]
 file = "mods/dark-mode-everywhere.pw.toml"
 hash = "d49b12a00673ee8de5b5df8ec5956bf81da551eff4d2a38b230a089b765f2c42"
 metafile = true
@@ -4759,7 +4742,7 @@ metafile = true
 
 [[files]]
 file = "mods/distraction-free-recipes.pw.toml"
-hash = "68379d0a55b328fd389cbab544b62d66a1336647102e9222de183c04b1e3ef12"
+hash = "ff2865a2d5f3dfa552ef4646800f2a66591195aa5bafb79fc394f9f8c325ace8"
 metafile = true
 
 [[files]]
@@ -5776,7 +5759,6 @@ metafile = true
 file = "mods/yacl.pw.toml"
 hash = "5aaab5c3140ac335cf0345f9f280fc5774a2834faecc290272b3d24b8a97274a"
 metafile = true
-
 
 [[files]]
 file = "mods/yung-structures-addon-for-loot-integrations.pw.toml"
