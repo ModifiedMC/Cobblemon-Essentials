@@ -1973,10 +1973,6 @@ file = "config/scribble.json"
 hash = "70bba512c19c9883541dc9eebbb2d66c2a31db025a2bc183b731581582aa60a5"
 
 [[files]]
-file = "config/sellingbin/selling_bin.json"
-hash = "14bc1d8902d69664f24aab655815ff59c6bd5d02c9420e49fa2ca132fa24df73"
-
-[[files]]
 file = "config/serverbrowser.conf"
 hash = "444eb28522a0ac2d454d4aef35f7061365a3fab7f3352de6e171fca47a7a0f0f"
 
@@ -4208,7 +4204,7 @@ metafile = true
 
 [[files]]
 file = "mods/aether.pw.toml"
-hash = "e6448befb831607b6f7522250c5f6f2bfd57c80b614467286465b248258c3939"
+hash = "4292e216d9c436006b801a6d90a3a355c47ea1949219187e577afae78737d729"
 metafile = true
 
 [[files]]
