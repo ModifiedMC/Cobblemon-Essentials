@@ -93,10 +93,6 @@ file = "config/NoChatReports/NCR-ServerPreferences.json"
 hash = "df32843b853e0a493ef3a9b1e39276818294353fbb0d833f7f61e77da0f5bca1"
 
 [[files]]
-file = "config/accessories.json5"
-hash = "406c5f8030db77b9223b0900dade41727825de8b4d6fcf40223f3a3ee4c9a591"
-
-[[files]]
 file = "config/accessorify-client.toml"
 hash = "a487da1f0b382adb103e8768701afd479e2edb7215b2d6dc70dfaa0e2022b544"
 
@@ -2006,7 +2002,7 @@ hash = "6cdb9e30371a83f636b118b2232b559906a5dbf1068adb6409974fec13774769"
 
 [[files]]
 file = "config/simplebackups-common.toml"
-hash = "ab037adcc3a6beba7cd838d606728051b5d7df7ae1ae5f416a67035fd1ae06d0"
+hash = "574a2685dca734e823c53209f611d9e01779bcd8c7f7830d077d4cdde56c709e"
 
 [[files]]
 file = "config/simplebackups-server.toml"
