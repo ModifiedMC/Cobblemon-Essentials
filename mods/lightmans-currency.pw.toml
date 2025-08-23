@@ -1,13 +1,13 @@
 name = "Lightman's Currency"
-filename = "lightmanscurrency-1.21-2.2.6.1c.jar"
+filename = "lightmanscurrency-1.21-2.2.6.2b.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "f06db61645adc6d81ac1dcb71de9c7020950ed62"
+hash = "d467936406c557d5c4fddd71c99dcf9f6b34f702"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6769843
+file-id = 6879752
 project-id = 472521
