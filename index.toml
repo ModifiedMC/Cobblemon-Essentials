@@ -234,7 +234,7 @@ hash = "c51ed7f0af9528cffc79b6bf65e50dbf3dd49b21b1ec3ee7815b17c90f2d5638"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "3ef54d513b3bc6169b857d5a2ade4826ca57ba22013707564d2269f00219c9de"
+hash = "04c623c43118a104a69b3d8e668265fbfd2149769e6c6cb3e18ba67c021da4f2"
 
 [[files]]
 file = "config/berry_good-common.toml"
