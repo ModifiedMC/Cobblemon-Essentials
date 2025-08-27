@@ -93,26 +93,6 @@ file = "config/NoChatReports/NCR-ServerPreferences.json"
 hash = "df32843b853e0a493ef3a9b1e39276818294353fbb0d833f7f61e77da0f5bca1"
 
 [[files]]
-file = "config/accessorify-client.toml"
-hash = "a487da1f0b382adb103e8768701afd479e2edb7215b2d6dc70dfaa0e2022b544"
-
-[[files]]
-file = "config/accessorify-common.toml"
-hash = "0f59ecad6b04f0a38818ab73835e5ddc6212628bd039e4ae063fafb946529069"
-
-[[files]]
-file = "config/accessorify-server.toml"
-hash = "bd39fa7aa1d64907d732c101fa1c91c5c6696f2ef8a7dee2779c582cd24a1066"
-
-[[files]]
-file = "config/accessorify/client_config.toml"
-hash = "1ec09f5e257f5ffd2ac2ab598254a4f87ff6d4089aab347e3c0804561ea237f4"
-
-[[files]]
-file = "config/accessorify/config.toml"
-hash = "90065faf2ec63985a53317f199d3c79b58e45ddc9e7732e8a150f6a071df638c"
-
-[[files]]
 file = "config/actuallyharvest-common.toml"
 hash = "a851c3cf333f3a0377a5cdf64833df167b4b57f62aac5905e9cec153632f2521"
 
@@ -4162,21 +4142,6 @@ hash = "0c31f109b6c4dca94a153fbdd827bbd5f96149fd5c7863ba0ba41fcab801afe0"
 metafile = true
 
 [[files]]
-file = "mods/accessories-cc-layer.pw.toml"
-hash = "c923f6539fabaadf6234b8346111069baa53fcc95d2445a7eebc50cb3751c25d"
-metafile = true
-
-[[files]]
-file = "mods/accessories.pw.toml"
-hash = "53b8759301fb32d2b8fcef1125984414e33aab748c4119c253812ea17bf28f4b"
-metafile = true
-
-[[files]]
-file = "mods/accessorify.pw.toml"
-hash = "6982264e94dd5325c97c1cbee9a55c1702c4af2307f5541839cd029772636bc4"
-metafile = true
-
-[[files]]
 file = "mods/actually-harvest.pw.toml"
 hash = "3609ca133c9f1bc0ac0af787d8e52a4f62fcc69bc9486bcaf42f0e647a5554c0"
 metafile = true
@@ -4683,7 +4648,7 @@ metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "f8f33d750e9ac6d7ef92bdaaf21812908787f4d5f5833c59de33ea5613d43833"
+hash = "29ae44de786e60c21b9f50555f71087ef8c9251ea985a95e712e347e4fbecd4e"
 metafile = true
 
 [[files]]
@@ -4694,6 +4659,11 @@ metafile = true
 [[files]]
 file = "mods/cupboard.pw.toml"
 hash = "92d8711662b4e3fd42a57254571aca9f0b33a10bb7492a8fba59b22e78f688e6"
+metafile = true
+
+[[files]]
+file = "mods/curios.pw.toml"
+hash = "f92e7a06645e41ea1934dc420eb2772edb1708c0d71cb427baef8cf753acb934"
 metafile = true
 
 [[files]]
@@ -5118,7 +5088,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs-tweaks.pw.toml"
-hash = "08d122f33a3121444a24c286d2b05be3cb88c1f418ffca1748941c7974c2879f"
+hash = "1f0ac5ee6a6ca2a691d8da10aa79bc4ad11a5034096ac9d266e34758e7f9ce10"
 metafile = true
 
 [[files]]
@@ -5164,6 +5134,11 @@ metafile = true
 [[files]]
 file = "mods/lithostitched.pw.toml"
 hash = "a77c051483c3182542400b0eb644bbead02ed7f63aca6cf4a0063516c2bfbe4b"
+metafile = true
+
+[[files]]
+file = "mods/littletiles.pw.toml"
+hash = "edb8fc5abf879cd53b9966f169ed1ff962a14c2ade57d804bb5bda382a962251"
 metafile = true
 
 [[files]]
@@ -5373,7 +5348,7 @@ metafile = true
 
 [[files]]
 file = "mods/octo-lib.pw.toml"
-hash = "4a88412e27d18168d7936b18e99130ffc4238ee7a9047ff85bebe4ba17898cc5"
+hash = "32f8d722b8e90a4ded120d3cbc7d6718d7bc2ea57a292af725978117710a6490"
 metafile = true
 
 [[files]]
@@ -5518,7 +5493,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "280b65831111c737228c09a931097d87726c061071710c7a172f0f4b423e98b6"
+hash = "cbc55d671a14bc023ab26c4ac46fefeee3daa0127f605157d45400a197b03c58"
 metafile = true
 
 [[files]]
@@ -5618,7 +5593,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "0c5df1c3b185222324a53a8edec72672b5221fa5422403b4991b4a2968645bf8"
+hash = "c9822d23d77c16a5bd0d2333c987035ac99997fee9bea42f5adc8533006dce97"
 metafile = true
 
 [[files]]
@@ -5668,7 +5643,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "6e651021a5f2e38f79d6dc21adc9ab25c251e3ec4293e8f997aada4cad9000c7"
+hash = "ed317b1feb02477053336481864a2c431326b6612fec62fb2261a299c3592e80"
 metafile = true
 
 [[files]]

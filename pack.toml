@@ -1,11 +1,11 @@
 name = "Modified Cobblemon Essentials"
-version = "1.4.1"
+version = "1.5.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "e9ed37b05d873e07d5bc85652974e73efd0e8054478d0936b5935687dc9c6937"
+hash = "e958977361a0a0e6a116c444a49cef2921855f9c994128ebd72ff5f6d3a5627c"
 
 [versions]
 minecraft = "1.21.1"
