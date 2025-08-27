@@ -2221,18 +2221,6 @@ file = "config/toms_storage-server.toml"
 hash = "a880e3220dd5051ed2901cfcba028d59bccfef4af8775232037ed8a2c2e81cf7"
 
 [[files]]
-file = "config/toolbelt-client.toml"
-hash = "dded1400222e8c1da8191df7a81f7becfd99f88b660de7837a6a5f5936b4c454"
-
-[[files]]
-file = "config/toolbelt-common.toml"
-hash = "d35292a326f50836adf2b4d7ab2b8f544122a4ee6b29b3699a433ec75ad6c15b"
-
-[[files]]
-file = "config/toolbelt-server.toml"
-hash = "d89a5b2e9bea1c953809981cb1b8608a0eecd43e3ec944803625159ea0524f76"
-
-[[files]]
 file = "config/torchmaster.toml"
 hash = "4765c6a67959c7a4c0e5366eb28b13f4188577d8e54bde7d07b0adc9f92bb3ad"
 
@@ -5669,11 +5657,6 @@ metafile = true
 [[files]]
 file = "mods/toms-storage.pw.toml"
 hash = "b2473f8d5728d34d6845b52822925e5389ba234e94de0edcaeba85df7d22bf06"
-metafile = true
-
-[[files]]
-file = "mods/tool-belt.pw.toml"
-hash = "aedf2d63eac9d47f5097bf5472e2f67bf7b2cf12d1ad6719e35e082cbd7acd5c"
 metafile = true
 
 [[files]]
