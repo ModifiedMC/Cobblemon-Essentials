@@ -702,7 +702,8 @@
 		{
 			icon: {
 				components: {
-					"ftbquests:icon": "minecraft:textures/entity_icon/enderdragon/dragon.png"
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "minecraft:ender_dragon"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -764,7 +765,8 @@
 		{
 			icon: {
 				components: {
-					"ftbquests:icon": "minecraft:textures/entity_icon/enderman/enderman.png"
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "minecraft:enderman"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -774,15 +776,10 @@
 					id: "1D1B7F37BA7DAF4C"
 					item: {
 						components: {
-							"easy_mob_farm:mob_capture_data": {
-								entityType: "minecraft:enderman"
-								name: "entity.minecraft.enderman"
-								rarity: "uncommon"
-								type: "minecraft:enderman"
-							}
+							"ftbquests:missing_item": "easy_mob_farm:mob_capture_card"
 						}
 						count: 1
-						id: "easy_mob_farm:mob_capture_card"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -814,7 +811,8 @@
 		{
 			icon: {
 				components: {
-					"ftbquests:icon": "ftbchunks:textures/faces/minecraft/endermite.png"
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "minecraft:endermite"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -840,7 +838,8 @@
 		{
 			icon: {
 				components: {
-					"ftbquests:icon": "minecraft:textures/entity_icon/shulker/shulker.png"
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "minecraft:shulker"
 				}
 				id: "ftbquests:custom_icon"
 			}
