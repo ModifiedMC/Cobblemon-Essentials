@@ -3934,11 +3934,6 @@ hash = "e1599947a8d78f74c129a8420569bb2453b2ce76fdc76a7151093923ea8366c9"
 metafile = true
 
 [[files]]
-file = "mods/ato.pw.toml"
-hash = "b7791054ab83c5ea85f4a9254b88a6660bcc2ce9a19ccd4a573626efe71c73b4"
-metafile = true
-
-[[files]]
 file = "mods/badoptimizations.pw.toml"
 hash = "00e6c82c9a6b13ca8d20031aedd6f117545fada87378de80b844e6fe31c238af"
 metafile = true
