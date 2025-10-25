@@ -1,15 +1,15 @@
 name = "Modified Cobblemon Essentials"
-version = "1.6.2"
+version = "1.7.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "3fada0e631d165dd31df734b431cb838788fcf4d3c00522b22fadb45dd6d145d"
+hash = "575c31107108360dc3f8c4a126858dae78d425e288b33acfa96683a0e77374cc"
 
 [versions]
 minecraft = "1.21.1"
-neoforge = "21.1.209"
+neoforge = "21.1.211"
 
 [export]
 [export.curseforge]

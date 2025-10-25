@@ -3,9 +3,9 @@
   "eggCheckChance": 0.5,
   "eggHatchMultiplier": 1.0,
   "shinyMethod": [
-    "crystal"
+    "masuda"
   ],
-  "shinyMultiplier": 2.0,
+  "shinyMultiplier": 3.0,
   "hiddenAbilitiesEnabled": true,
   "forcedAbilitiesEnabled": false,
   "dittoAndDittoRandomEgg": true,
